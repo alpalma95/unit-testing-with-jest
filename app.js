@@ -6,13 +6,10 @@ const fromEuroToDollar = function(valueInEuro){
     return valueInDollar;
 }
 
-const fromDollarToYen = (valueInDollar)=> {
-    return valueInDollar * 127.9
-}
+const fromDollarToYen = (valueInDollar)=> valueInDollar * 127.9
 
-const fromYenToPound = (valueInYen) => {
-    return valueInYen * 0.006
-}
+
+const fromYenToPound = (valueInYen) => valueInYen * 0.006
 // this is my function that sums two numbers
 const sum = (a,b) => {
     return a + b
